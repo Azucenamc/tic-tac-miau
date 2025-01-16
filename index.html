@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Gato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Juego del Gato</h1>
+    </header>
+    <div id="configuracion">
+        <input type="text" id="jugador1" placeholder="Nombre del Jugador 1">
+        <input type="text" id="jugador2" placeholder="Nombre del Jugador 2">
+        <button id="empezarJuego">Empezar Juego</button>
+    </div>
+    <div id="marcador" style="display: none;">
+        <p id="mensaje">Turno del jugador: X</p>
+        <div class="boton-container">
+            <button id="reiniciarJuego" style="display: none;">Reiniciar Juego</button>
+        </div>
+    </div>
+    <div id="tablero" style="display: none;">
+        <div class="celda" data-index="0"></div>
+        <div class="celda" data-index="1"></div>
+        <div class="celda" data-index="2"></div>
+        <div class="celda" data-index="3"></div>
+        <div class="celda" data-index="4"></div>
+        <div class="celda" data-index="5"></div>
+        <div class="celda" data-index="6"></div>
+        <div class="celda" data-index="7"></div>
+        <div class="celda" data-index="8"></div>
+    </div>
+    <footer>
+        <p style="color: rgb(81, 81, 116);"> Para Alura Latam - Creado por AAMC</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
